@@ -8,8 +8,10 @@ import (
 	"flag"
 	"log"
 
+	"terraform-provider-hashicups/internal/provider"
+
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
-	"github.com/hashicorp/terraform-provider-scaffolding-framework/internal/provider"
+	// "github.com/hashicorp/terraform-provider-scaffolding-framework/internal/provider" // 기존의 템플릿
 )
 
 var (
